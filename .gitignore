@@ -36,3 +36,11 @@ CPU-Scheduling-Algorithms.layout
 CPU-Scheduling-Algorithms.depend
 input.txt
 main
+
+# Node.js
+node_modules/
+.env
+.env.*
+
+# Compiled C++ Binaries
+lab4

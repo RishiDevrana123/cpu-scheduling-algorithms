@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Frontend (not needed in the backend Docker image)
+frontend/
+
+# Build artifacts & binaries (we compile fresh inside Docker)
+*.exe
+*.o
+*.obj
+*.out
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Misc
+README.md
+testcases/
+*.log
